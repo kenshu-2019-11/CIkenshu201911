@@ -1,5 +1,6 @@
 require 'slack-ruby-client'
 
+
   Slack.configure do |conf|
   
     conf.token = 'API_TOKEN'
