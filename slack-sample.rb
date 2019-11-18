@@ -25,4 +25,5 @@ require 'slack-ruby-client'
       client.message channel: data['channel'], text: "Good night"
     end
   end
+
   client.start
