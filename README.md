@@ -10,7 +10,7 @@ install and get slack API-TOKEN
   Add this line to terminal
 
 ```
-gem install slack-ruby-client
+   $gem install slack-ruby-client
 ```
 
 ## get API-TOKEN
@@ -22,12 +22,12 @@ xoxp-xxxxxxxxxxxxxxxxxxxxxxxx
 1. clone and setup
 
 ```
-* git clone 
-* cd CIkenshu201911
+   $ git clone 
+   $ cd CIkenshu201911
 ```
 
 2. run slack-bot
 
 ```
- $ ruby .\bot.rb
+   $ ruby .\bot.rb
 ```
