@@ -1,8 +1,8 @@
 # Slack Bot program
 
 ```
-* Written Ruby2.6.5
-* slack-ruby-client0.14.4
+* Written Ruby 2.6.5
+* slack-ruby-client 0.14.4
 * You need to get an API token to move the bot
 ```
 
@@ -29,5 +29,5 @@ xoxp-xxxxxxxxxxxxxxxxxxxxxxxx
 2. run slack-bot
 
 ```
- $ ruby ./bot.rb
+ $ ruby .\bot.rb
 ```
