@@ -1,9 +1,9 @@
 ## Slack Bot program
 
 ```
-- Written Ruby2.6.5
-- slack-ruby-client0.14.4
-- You need to get an API token to move the bot
+* Written Ruby2.6.5
+* slack-ruby-client0.14.4
+* You need to get an API token to move the bot
 ```
 
 install and get slack API-TOKEN
@@ -13,11 +13,11 @@ install and get slack API-TOKEN
 gem install slack-ruby-client
 ```
 
-## get API-TOKEN
+# get API-TOKEN
 ```
 xoxp-xxxxxxxxxxxxxxxxxxxxxxxx
 ```
-## How to start
+# How to start
 
 1.clone and setup
 
