@@ -23,7 +23,7 @@ xoxp-xxxxxxxxxxxxxxxxxxxxxxxx
 1. clone and setup
 
 ```
-   $ git clone 
+   $ git clone https://github.com/kenshu-2019-11/CIkenshu01911
    $ cd CIkenshu201911
 ```
 
