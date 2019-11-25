@@ -1,4 +1,4 @@
-## Slack Bot program
+# Slack Bot program
 
 ```
 * Written Ruby2.6.5
@@ -13,20 +13,20 @@ install and get slack API-TOKEN
 gem install slack-ruby-client
 ```
 
-# get API-TOKEN
+## get API-TOKEN
 ```
 xoxp-xxxxxxxxxxxxxxxxxxxxxxxx
 ```
-# How to start
+## How to start
 
-1.clone and setup
+1. clone and setup
 
 ```
 * git clone 
 * cd CIkenshu201911
 ```
 
-2.run slack-bot
+2. run slack-bot
 
 ```
  $ ruby ./bot.rb
