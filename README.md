@@ -15,9 +15,10 @@ install and get slack API-TOKEN
 ```
 
 ## get API-TOKEN
-```
-xoxp-xxxxxxxxxxxxxxxxxxxxxxxx
-```
+The xoxb-Api-Token part is
+Write the TOKEN at the bottom of the following screen after creating the bot
+![get token](file:///C:/Users/r.tsuchiya/Downloads/iOS%20%E3%81%AE%E7%94%BB%E5%83%8F.png)
+
 ## How to start
 
 1. clone and setup
