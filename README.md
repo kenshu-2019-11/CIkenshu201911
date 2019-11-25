@@ -1,10 +1,10 @@
 # Slack Bot program
 
 ```
-* Written Ruby 2.6.5
-* slack-ruby-client 0.14.4
-* You need to get an API token to move the bot
-   https://api.slack.com/apps
+- Written Ruby 2.6.5
+- slack-ruby-client 0.14.4
+- You need to get an API token to move the bot
+   - https://api.slack.com/
 ```
 
 install and get slack API-TOKEN
