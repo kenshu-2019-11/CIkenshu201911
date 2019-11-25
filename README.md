@@ -24,7 +24,7 @@ Write the TOKEN of the following screen after creating the bot
 1. clone and setup
 
 ```
-   $ git clone https://github.com/kenshu-2019-11/CIkenshu01911
+   $ git clone https://github.com/kenshu-2019-11/ruby-slack-bot
    $ cd CIkenshu201911
 ```
 
