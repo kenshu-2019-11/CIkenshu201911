@@ -1,16 +1,11 @@
-class GreetReply
+class Greeting
   
   def initialize()
     @client = nil
   end
-  
-  def greet()
-
-  end
 
   def on_hello()
-    puts "-- GreetReply: on_hello"
-   end
+  end
 
   def set_client( cli )
     @client = cli
@@ -22,14 +17,20 @@ class GreetReply
 
 
   def on_message( ch, msg )
+    if msg.include?('おはよう')
+      send_message( ch, "おはようございます" )
+    end
     if msg.include?('こんにちは')
-      send_message( ch, "Hi!" )
+      send_message( ch, "こんにちは" )
+    end
+    if msg.include?('ありがとう')
+      send_message( ch, "どういたしまして" )
     end
     if msg.include?('かしこい') || msg.include?('えらい')
-      send_message( ch, "Thank you!" )
+      send_message( ch, "ありがとうございます" )
     end
     if msg.include?('おやすみ')
-      send_message( ch, "Good night" )
+      send_message( ch, "おやすみなさい" )
     end
    end
 end

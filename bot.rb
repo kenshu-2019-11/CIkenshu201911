@@ -1,13 +1,13 @@
 require 'slack-ruby-client'
 require '.\greet_reply.rb'
 require '.\weather_forecast_announce.rb'
-require '.\schedule_notice.rb'
+require '.\config.rb'
 
 class Bot
 
   def initialize()
     @name = "name"
-    @token = "API_TOKEN"
+    @token = $xoxb_API_TOKEN
     @channel = "channel"
 
     Slack.configure do |config|
@@ -15,7 +15,7 @@ class Bot
     end
     
     @client = Slack::RealTime::Client.new
-    
+
     @client.on :hello do
       on_hello()
       puts 'connected!'
@@ -27,9 +27,8 @@ class Bot
     end
     
     @function_list = [
-      GreetReply.new(),
+      Greeting.new(),
       WeatherForecastAnnounce.new(),
-#      ScheduleNotice.new()
     ]
 
     initialize_function()
@@ -48,7 +47,6 @@ class Bot
   end
 
   def on_hello()
-    puts "Bot: on_hello"
     @function_list.each do |f|
       f.on_hello()
     end
