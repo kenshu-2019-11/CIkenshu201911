@@ -4,7 +4,7 @@
 * Written Ruby 2.6.5
 * slack-ruby-client 0.14.4
 * You need to get an API token to move the bot
-  * https://api.slack.com/apps
+   https://api.slack.com/apps
 ```
 
 install and get slack API-TOKEN
