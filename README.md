@@ -14,9 +14,8 @@ install and get slack API-TOKEN
    $ gem install slack-ruby-client
 ```
 
-## get API-TOKEN
-The "xoxb-Api-Token" part is
-Write the TOKEN at the bottom of the following screen after creating the bot
+## API-TOKEN
+Please use the API-TOKEN obtained by yourself for "xoxb-API-TOKEN"
 
 ## How to start
 
