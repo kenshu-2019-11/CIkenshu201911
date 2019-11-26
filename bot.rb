@@ -1,7 +1,7 @@
 require 'slack-ruby-client'
-require '.\greet_reply.rb'
-require '.\weather_forecast_announce.rb'
-require '.\config.rb'
+require_relative 'function/greet_reply.rb'
+require_relative 'function/weather_forecast_announce.rb'
+require_relative 'config.rb'
 
 class Bot
 
