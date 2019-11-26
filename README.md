@@ -23,7 +23,7 @@ Please refer to the following url
 
 ```
    $ git clone https://github.com/kenshu-2019-11/Slack-Weather-Bot
-   $ cd ruby-slack-bot
+   $ cd Slack-Weather-Bot
 ```
 
 2. run Slack-Weather-Bot
