@@ -17,7 +17,7 @@
 ### get API-TOKEN<br>
 "xoxb-token" or "xoxp-token" part 
 Write the TOKEN of the following screen after creating the bot
-![getapitoken](https://github.com/kenshu-2019-11/CIkenshu201911/blob/master/iOS%20%E3%81%AE%E7%94%BB%E5%83%8F.png)
+![getapitoken](https://github.com/kenshu-2019-11/ruby-slack-bot/blob/master/token_description.png)
 
 ## How to start
 
