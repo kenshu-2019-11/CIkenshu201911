@@ -1,34 +1,32 @@
-# Slack Bot program
+# Slack weatherBot program
 
 
-- Written Ruby 2.6.5
+- Written in Ruby 2.6.5
 - slack-ruby-client 0.14.4
 - You need to get an API token to move the bot
-   - https://api.slack.com/
 
 
-## install and get slack API-TOKEN
+## install and get a Slack API-TOKEN
   Add this line to terminal
 
 ```
-   $ gem install slack-ruby-client
+   $ gem install slack-ruby-client 0.14.0
 ```
 
-### get API-TOKEN<br>
-"xoxb-token" or "xoxp-token" part 
-Write the TOKEN of the following screen after creating the bot
-![getapitoken](https://github.com/kenshu-2019-11/ruby-slack-bot/blob/master/token_description.png)
+### get Slack API-TOKEN <br>
+Please refer to the following url
+   https://api.slack.com/
 
 ## How to start
 
 1. clone and setup
 
 ```
-   $ git clone https://github.com/kenshu-2019-11/CIkenshu201911
-   $ cd CIkenshu201911
+   $ git clone https://github.com/kenshu-2019-11/slack-weather-bot
+   $ cd ruby-slack-bot
 ```
 
-2. run slack-bot
+2. run Slack weatherBot
 
 ```
    $ ruby .\bot.rb
