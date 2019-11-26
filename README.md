@@ -1,4 +1,4 @@
-# Slack weatherBot program
+# Slack-Weather-Bot program
 
 
 - Written in Ruby 2.6.5
@@ -22,11 +22,11 @@ Please refer to the following url
 1. clone and setup
 
 ```
-   $ git clone https://github.com/kenshu-2019-11/slack-weather-bot
+   $ git clone https://github.com/kenshu-2019-11/Slack-Weather-Bot
    $ cd ruby-slack-bot
 ```
 
-2. run Slack weatherBot
+2. run Slack-Weather-Bot
 
 ```
    $ ruby .\bot.rb
