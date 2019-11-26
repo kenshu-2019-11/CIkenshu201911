@@ -26,10 +26,15 @@ class WeatherForecastAnnounce
       res         = JSON.load(open(uri).read)
       title       = res['title']
       link        = res['link']
-      weather     = res['forecasts'].first
-      @wfa_message= "#{weather['date']}の#{title}は「#{weather['telop']}」です。
-      \n詳しい情報は#{link}\n"
-
+      weather     = res['forecasts'].first 
+      tomorrw     = res['forecasts'].second
+      temperature = tomorrw['temperature']
+      max         = temperature['max'].values.map(&:to_i)
+      min         = temperature['min'].values.map(&:to_i)
+      @wfa_message= "#{weather['date']}の#{title}は「#{weather['telop']}」です。\n
+                     詳しい情報は#{link}\n 
+                     明日#{tomorrw['date']}の#{title}天気は「#{tomorrw['telop']}」です。\n
+                     最高気温 #{max[0]}℃、  最低気温 #{min[0]}℃です。"
       return @wfa_message
      end
 
@@ -37,12 +42,11 @@ class WeatherForecastAnnounce
       thread = Thread.new do
          loop do
             t = Time.now
-            if( t.hour == 16 && t.min == 57 && @latest_fetch_day != t.day )
+            if( t.hour == 8 && t.min == 0 && @latest_fetch_day != t.day )
                @latest_fetch_day = t.day
                wi = fetch_weather_information
                @web_client  = Slack::Web::Client.new( token: TOKEN )
                @web_client.chat_postMessage( channel: $user_id, text:"#{wi}", as_user: false)
-               #@client.message( channel: 'DQ1FBSYKA', text:"#{wi}")
             end
             sleep( 1 )
          end
@@ -54,8 +58,9 @@ class WeatherForecastAnnounce
      end
 
      def  on_message(ch, msg)
-       if msg.include?('天気')
-          send_message( ch, "天気")
+       if msg.include?('天気？')
+          wi = fetch_weather_information
+          send_message( ch, "#{wi}")
        end    
      end
 end

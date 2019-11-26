@@ -18,19 +18,19 @@ class Greeting
 
   def on_message( ch, msg )
     if msg.include?('おはよう')
-      send_message( ch, "おはようございます" )
+      send_message( ch, "おはようございます!" )
     end
     if msg.include?('こんにちは')
-      send_message( ch, "こんにちは" )
+      send_message( ch, "こんにちは!" )
     end
     if msg.include?('ありがとう')
-      send_message( ch, "どういたしまして" )
+      send_message( ch, "どういたしまして!" )
     end
     if msg.include?('かしこい') || msg.include?('えらい')
-      send_message( ch, "ありがとうございます" )
+      send_message( ch, "ありがとうございます!" )
     end
     if msg.include?('おやすみ')
-      send_message( ch, "おやすみなさい" )
+      send_message( ch, "おやすみなさい。" )
     end
    end
 end
