@@ -14,7 +14,7 @@
 ```
 
 ### get Slack API-TOKEN <br>
-Please refer to the following url
+Please refer to the following url <br>
    https://api.slack.com/
 
 ## How to start
