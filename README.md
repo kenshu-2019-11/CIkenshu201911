@@ -1,4 +1,4 @@
-# Slack-Weather-Bot program
+# Slack-Notice-Bot program
 
 
 - Written in Ruby 2.6.5
