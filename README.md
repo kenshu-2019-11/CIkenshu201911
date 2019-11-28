@@ -1,4 +1,4 @@
-# Slack-Notice-Bot program
+# slack-notice-bot program
 
 
 - Written in Ruby 2.6.5
@@ -29,5 +29,5 @@ Please refer to the following url <br>
 2. run Slack-Weather-Bot
 
 ```
-   $ ruby .\bot.rb
+   $ ruby bot.rb
 ```
