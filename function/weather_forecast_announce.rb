@@ -1,7 +1,7 @@
 require 'json'
 require 'open-uri'
 require 'slack-ruby-client'
-require '.\config.rb'
+require './config.rb'
 
 TOKEN = $xoxp_API_TOKEN
 

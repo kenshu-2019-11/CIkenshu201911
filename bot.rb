@@ -3,6 +3,7 @@ require_relative 'function/greet_reply.rb'
 require_relative 'function/weather_forecast_announce.rb'
 require_relative 'config.rb'
 
+
 class Bot
 
   def initialize()
